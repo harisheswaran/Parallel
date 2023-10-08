@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Parallax Website</title>
+  <link rel="icon" href="image4.jpg">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .section {
+      height: 100vh;
+      position: relative;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+    }
+
+    .section:nth-child(odd) {
+      background-image: url('image2.png'); /* Set your background image here */
+    }
+
+    .section:nth-child(even) {
+      background-image: url('image3.png'); /* Set your background image here */
+    }
+
+    /* Additional sections can be added similarly */
+
+    .content {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 5px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;color: rgb(4, 57, 39);font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">MOBILE PHONES</h1>
+  <div class="section">
+    <div class="content">
+      <h1>USES</h1>
+      <p>This is the first section of the parallax website.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="content">
+      <h1>EFFECTS</h1>
+      <p>This is the second section of the parallax website.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="content">
+      <h1>REMEDY</h1>
+      <p>This is the third section of the parallax website.</p>
+    </div>
+  </div>
+
+  <!-- Additional sections can be added here -->
+
+</body>
+</html>
